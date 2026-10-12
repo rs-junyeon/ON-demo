@@ -2,7 +2,7 @@
 
 - 작성: 2026-10-12
 - 목적: 사수에게 ON 기획을 설명하는 클릭형 데모. 실서비스 코드가 아니다.
-- 기획 원문: 노션 「회사 > ON 기획」 (https://app.notion.com/p/3f78e59a2a2780508948ee6dd9ea35c4)
+- 기획 원문: 노션 「회사 > ON 기획」 (https://app.notion.com/p/ON-3f78e59a2a2780508948ee6dd9ea35c4?source=copy_link)
 - 이전 버전: `../index.html` (단일 HTML 데모). 기능·문구·시연 순서를 이어받는다.
 
 ## 1. 범위

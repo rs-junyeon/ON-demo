@@ -2,7 +2,7 @@
 
 쿠핀 ON 기획을 설명하는 클릭형 데모. 왼쪽은 ON 관리자, 오른쪽은 고객 웹앱(폰 화면)이고 샘플 데이터로만 동작한다.
 
-- 기획서: 노션 「회사 > ON 기획」 https://app.notion.com/p/3f78e59a2a2780508948ee6dd9ea35c4
+- 기획서: 노션 「회사 > ON 기획」 https://app.notion.com/p/ON-3f78e59a2a2780508948ee6dd9ea35c4?source=copy_link
 - 설계: [docs/spec.md](docs/spec.md) · 구현 계획: [docs/plan.md](docs/plan.md)
 - 이전 버전(단일 HTML): `../index.html`
 - 디자인: 쿠핀 컬러 시스템 `~/Documents/company/all.html` (토큰은 `src/styles/tokens.css`). ON 시그니처 Lime→Mint, 흐름 띠 노드는 각 서비스 시그니처(PLUS Mint→Sky, HALO Coral→Apricot, 인증 Sky→Navy)

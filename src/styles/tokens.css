@@ -1,0 +1,94 @@
+/* =========================================================
+   Coupin Color System 토큰 (~/Documents/company/all.html 기준)
+   텍스트 시맨틱은 문서 07 Semantic Tokens 표(Navy 스케일) 값을 따른다
+   ========================================================= */
+:root {
+  color-scheme: light;
+
+  /* 1. Master Core */
+  --coupin-mint: #7FE7D8;
+  --coupin-sky: #7CCBFF;
+  --coupin-lavender: #B9A7FF;
+  --coupin-pink: #FFB7D5;
+  --coupin-navy: #24324A;
+  --coupin-indigo: #1D1753;
+  --coupin-milk: #F8FAFC;
+
+  /* 2. Extended */
+  --coupin-apricot: #FFB78F;
+  --coupin-coral: #FF9FB0;
+  --coupin-lime: #C3E89E;
+  --coupin-butter: #FFE0A0;
+  --coupin-orchid: #E79AE4;
+
+  /* 3. Service gradients (135°) */
+  --coupin-gradient: linear-gradient(135deg, var(--coupin-mint) 0%, var(--coupin-sky) 35%, var(--coupin-lavender) 70%, var(--coupin-pink) 100%);
+  --on-gradient: linear-gradient(135deg, var(--coupin-lime) 0%, var(--coupin-mint) 100%);
+  --on-button-neg: linear-gradient(135deg, #5A7A3A 0%, #2A7D72 100%);
+  --plus-gradient: linear-gradient(135deg, var(--coupin-mint) 0%, var(--coupin-sky) 100%);
+  --halo-gradient: linear-gradient(135deg, var(--coupin-coral) 0%, var(--coupin-apricot) 100%);
+  --audit-gradient: linear-gradient(135deg, #7CCBFF 0%, #3F82BC 52%, #24324A 100%);
+
+  /* 4. Scales (필요한 단계만) */
+  --lime-50: #F4FBEC; --lime-100: #E8F6D8; --lime-200: #D9F0BE; --lime-300: #CDEBAB; --lime-600: #A3CC7A; --lime-700: #7FA557; --lime-800: #5A7A3A; --lime-900: #3C5325;
+  --mint-50: #F0FBF9; --mint-100: #D6F5EF; --mint-700: #3FA597; --mint-800: #2A7D72; --mint-900: #1B544D;
+  --sky-50: #EFF7FF; --sky-100: #D4EAFF; --sky-700: #3F82BC;
+  --lavender-100: #E5DDFF; --lavender-300: #C2B0FF; --lavender-600: #9784DD;
+  --pink-100: #FFE0EC; --pink-300: #FFC0D7; --pink-600: #DD96B3;
+  --coral-50: #FFF0F2; --coral-100: #FFDCE1; --coral-300: #FFB3BE; --coral-600: #E07E90; --coral-800: #8A4A57; --coral-900: #5E313A;
+  --butter-50: #FFFBF0; --butter-100: #FFF4D8; --butter-300: #FFE6AE; --butter-600: #E0BE78; --butter-800: #8A6E2A; --butter-900: #5E4A1C;
+  --navy-50: #F4F5FA; --navy-100: #E0E3EC; --navy-900: #10162E;
+
+  /* 5. Semantic */
+  --text-primary: #10162E;
+  --text-secondary: #3F4866;
+  --text-tertiary: #8B92A8;
+  --text-inverse: #FFFFFF;
+  --surface-base: #FFFFFF;
+  --surface-subtle: var(--coupin-milk);
+  --surface-muted: #F0F1F8;
+  --surface-inverse: var(--coupin-navy);
+  --border-subtle: #E8E9F3;
+  --border-default: #D0D2E0;
+  --border-strong: #8B92A8;
+  --status-success: #3FA597;
+  --status-warning: #F5B544;
+  --status-danger: #E55F6B;
+  --status-info: var(--coupin-sky);
+
+  /* 6. 데모 역할 토큰 (60·30·10: 시그니처는 CTA·강조에만) */
+  --cta: var(--on-gradient);
+  --cta-text: var(--text-primary);
+  --selected: var(--coupin-navy);
+  --accent-soft: var(--lime-50);
+  --accent-soft-2: var(--lime-100);
+  --accent-line: var(--lime-300);
+  --accent-mark: var(--lime-700);
+  --accent-text: var(--lime-800);
+  --accent-ink: var(--lime-900);
+  --free-text: var(--mint-800);
+  --danger-text: var(--coral-800);
+  --check-bg: var(--butter-100);
+  --check-line: var(--butter-600);
+  --check-text: var(--butter-900);
+  --halo-soft: var(--coral-50);
+  --halo-text: var(--coral-800);
+  --plus-soft: var(--mint-50);
+  --plus-text: var(--mint-900);
+  --shadow-1: 0 6px 18px rgba(36, 50, 74, .12);
+  --shadow-2: 0 18px 48px -16px rgba(36, 50, 74, .35);
+
+  /* 카테고리 (확장 팔레트에서 배정) */
+  --cat-BEAUTY: var(--pink-600);   --cat-BEAUTY-soft: var(--pink-100);   --cat-BEAUTY-mid: var(--pink-300);
+  --cat-CAFE: var(--butter-600);   --cat-CAFE-soft: var(--butter-100);   --cat-CAFE-mid: var(--butter-300);
+  --cat-FOOD: var(--coral-600);    --cat-FOOD-soft: var(--coral-100);    --cat-FOOD-mid: var(--coral-300);
+  --cat-FIT: var(--lime-600);      --cat-FIT-soft: var(--lime-100);      --cat-FIT-mid: var(--lime-300);
+  --cat-CLASS: var(--lavender-600); --cat-CLASS-soft: var(--lavender-100); --cat-CLASS-mid: var(--lavender-300);
+
+  --radius-s: 10px;
+  --radius-m: 14px;
+  --radius-l: 20px;
+  --radius-xl: 24px;
+  --font: 'Pretendard', system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif;
+  --mono: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
+}
